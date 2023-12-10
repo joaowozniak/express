@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body,
+h1,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('/images/your-background-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Style the "About" section */
+.about {
+    background-color: #f8f8f8;
+    padding: 3rem 0;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Update styles for the logo and navigation */
+.logo img {
+    height: 60px;
+    /* Adjust as needed */
+    padding: 10px;
+}
+
+/* Style the hero section */
+.hero {
+    /* existing background styles */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Use the full height of the viewport */
+    text-align: center;
+    /* Center text horizontally */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    /* Adjust spacing as needed */
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    /* Adjust spacing as needed */
+}
+
+/* Center the call to action button */
+.cta-button {
+    /* existing button styles */
+    /* Additional styles to center the button */
+    margin-top: 2rem;
+    /* Space from the text above */
+    text-align: center;
+}
